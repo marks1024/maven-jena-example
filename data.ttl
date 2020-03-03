@@ -1,0 +1,19 @@
+# data from SPARQL Query Tests
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://example/com/> .
+
+ex:john foaf:name "Johnny Lee" .
+ex:john foaf:mbox <mailto:outlaw@example.com> .
+ex:john foaf:nick "J" .
+ex:john foaf:knows ex:alan .
+
+ex:alan foaf:name "Alan Other" .
+ex:alan foaf:mbox <mailto:other@example.com> .
+ex:alan foaf:interest <http://www.wikimedia.org> .
+ex:alan foaf:knows ex:mary .
+
+ex:mary foaf:name "Mary Smith" .
+ex:mary foaf:mbox <mailto:mary.s@example.com> .
+ex:mary foaf:interest <http://www.wikimedia.org> .
+ex:mary foaf:knows ex:john .
