@@ -11,7 +11,7 @@ import org.apache.jena.rdf.model.ModelFactory;
 
 
 public class App {
-    public static final String pr = "PREFIX foaf:   <http://xmlns.com/foaf/0.1/>\n"
+    public static final String pr = "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n"
             + "PREFIX ex: <http://example/com/>\n";
     
     public static final String query1 = pr + "SELECT ?mbox "
